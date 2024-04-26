@@ -1,0 +1,112 @@
+.btn{
+	border-radius: 0 0 0 0;
+	padding: 15px 30px;
+	border-radius: 100px 100px 100px 100px;
+	background-color: #C57806;
+	color: #fff;
+   font-family: Suisse Intl Regular;
+   font-size: 16px;
+   	line-height: 100%;
+
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 13px;
+	background: #D7D5D7;
+	color: #000000;
+	font-family: Courier New;
+}
+.headerlogo{
+	position: absolute;
+ 	z-index: 100;
+}
+.header_section{
+	display: flex;
+	align-items: center;
+}
+.header_item{
+	display: flex;
+	align-items: left;
+	padding: 15px 15px;
+	font-size: 18px;
+	margin-left: 130px;
+	font-family: Courier New;
+}
+.header_item:hover{
+	text-decoration: underline;
+}
+.slide1title1{
+	display: flex;
+	margin-right: 10px;
+	color: #FAC32E;
+	font-family: Intro ;
+	font-size: 55px;
+	line-height: 50%;
+	text-indent: 10.8em;
+}
+.slide1title2{
+	display: flex;
+	margin-right: 10px;
+	color: #FAC32E;
+	font-family: Intro ;
+	font-size: 55px;
+	line-height: 50%;
+	text-indent: 10.8em;
+}
+.slide1title3{
+	display: flex;
+	margin-right: 10px;
+	color: #FAC32E;
+	font-family: Intro ;
+	font-size: 55px;
+	line-height: 50%;
+	text-indent: 10.8em;
+}
+.slide1title41{
+	display: flex;
+	margin-right: 10px;
+	color: #000000;
+	font-family: Courier New;
+	font-size: 26px;
+	line-height: 90%;
+	text-indent: 23em;
+}
+.slide1title42{
+	display: flex;
+	margin-right: 10px;
+	color: #000000;
+	font-family: Courier New;
+	font-size: 26px;
+	line-height: 90%;
+	text-indent: 23em;
+}
+.slide1title43{
+	display: flex;
+	margin-right: 10px;
+	color: #000000;
+	font-family: Courier New;
+	font-size: 26px;
+	line-height: 90%;
+	text-indent: 23em;
+}
+.slide1text{
+	width: 576px;
+	height: 523px;
+	background-image: url(main.png);
+	margin-left: 160px;
+	margin-top: 0px;
+}
+.slide2{
+	background-color: #D7D5D7;
+	height: 650px;
+}
+.slide2title{
+	color: #000;
+	font-family: Intro;
+	font-size: 64px;
+	line-height: 250%;
+	margin-top: 100px;
+	margin-left: 215px;
+
+}

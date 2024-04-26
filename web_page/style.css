@@ -1,0 +1,35 @@
+.hreff{
+    width: 244px;
+    height: 60px;
+    border-radius: 100px 100px 100px 100px;
+    background-color: #39393C;
+    color: #fff;
+    transform: translate(2.2%);
+    padding: 15px;
+    margin-top: 30px;
+    font-family: Suisse Intl Regular;
+    text-decoration: none;
+}
+
+.formcenter{
+    align-items: center;
+    padding: 50px;
+    position: fixed; top: 70%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.home{
+    background-image: url(phon_mane.jpg);
+    color: #fff; 
+    background-size: cover;
+    scroll-behavior: smooth; 
+}
+
+input, textarea{
+	width: 300px;
+	height: 33px;
+	border-radius: 0 0 0 0;
+}
+

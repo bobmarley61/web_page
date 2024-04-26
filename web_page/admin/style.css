@@ -1,0 +1,201 @@
+.btn{
+	border-radius: 0 0 0 0;
+	padding: 15px 30px;
+	border-radius: 100px 100px 100px 100px;
+	background-color: #C57806;
+	color: #fff;
+   font-family: Suisse Intl Regular;
+   font-size: 16px;
+   	line-height: 100%;
+
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 13px;
+	background: #D7D5D7;
+	color: #000000;
+	font-family: Courier New;
+}
+.headerlogo{
+	position: absolute;
+ 	z-index: 100;
+}
+.header_section{
+	display: flex;
+	align-items: center;
+}
+.header_item{
+	display: flex;
+	align-items: left;
+	padding: 15px 15px;
+	font-size: 18px;
+	margin-left: 130px;
+	font-family: Courier New;
+}
+.header_item:hover{
+	text-decoration: underline;
+}
+.slide1title1{
+	display: flex;
+	margin-right: 10px;
+	color: #FAC32E;
+	font-family: Intro ;
+	font-size: 55px;
+	line-height: 50%;
+	text-indent: 10.8em;
+}
+.slide1title2{
+	display: flex;
+	margin-right: 10px;
+	color: #FAC32E;
+	font-family: Intro ;
+	font-size: 55px;
+	line-height: 50%;
+	text-indent: 10.8em;
+}
+.slide1title3{
+	display: flex;
+	margin-right: 10px;
+	color: #FAC32E;
+	font-family: Intro ;
+	font-size: 55px;
+	line-height: 50%;
+	text-indent: 10.8em;
+}
+.slide1title41{
+	display: flex;
+	margin-right: 10px;
+	color: #000000;
+	font-family: Courier New;
+	font-size: 26px;
+	line-height: 90%;
+	text-indent: 23em;
+}
+.slide1title42{
+	display: flex;
+	margin-right: 10px;
+	color: #000000;
+	font-family: Courier New;
+	font-size: 26px;
+	line-height: 90%;
+	text-indent: 23em;
+}
+.slide1title43{
+	display: flex;
+	margin-right: 10px;
+	color: #000000;
+	font-family: Courier New;
+	font-size: 26px;
+	line-height: 90%;
+	text-indent: 23em;
+}
+.slide1text{
+	width: 576px;
+	height: 523px;
+	background-image: url(main.png);
+	margin-left: 160px;
+	margin-top: 0px;
+}
+.slide2{
+	background-color: #D7D5D7;
+	height: 650px;
+}
+.slide2title{
+	color: #000;
+	font-family: Intro;
+	font-size: 64px;
+	line-height: 250%;
+	margin-top: 100px;
+	margin-left: 215px;
+}
+.slide4title{
+	color: #C57806;
+	font-family: Intro;
+	font-size: 64px;
+	line-height: 250%;
+	margin-top: 60px;
+	margin-left: 215px;
+}
+.slide4text {
+	text-indent: 25%;
+	font-family: Courier New;
+	color: #000;
+	
+}
+.fio_container{
+	margin-top: 35px;
+	color: #C57806;
+	font-family: Courier New;
+}
+input, textarea{
+	width: 400px;
+	height: 50px;
+	border-radius: 0 0 0 0;
+}
+input[type="submit"] {
+	width: 244px;
+	height: 60px;
+	border-radius: 100px 100px 100px 100px;
+	background-color: #39393C;
+	color: #fff;
+   transform: translate(2.2%);
+   padding: 3px;
+   margin-top: 30px;
+   font-family: Courier New;
+  }
+input[type="submit"] {
+	cursor: pointer;
+}
+.footer{
+	margin-top: 60px;
+	background-color: #39393C;
+	height: 120px;
+}
+
+
+
+.scroll-table-body {
+	height: 300px;
+	overflow-x: auto;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #eee;
+}
+.scroll-table table {
+	width:100%;
+	table-layout: fixed;
+	border: none;
+}
+.scroll-table thead th {
+	font-weight: bold;
+	text-align: left;
+	border: none;
+	padding: 10px 15px;
+	background: #aba8a8;
+	font-size: 14px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.scroll-table tbody td {
+	text-align: left;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	padding: 10px 15px;
+	font-size: 14px;
+	vertical-align: top;
+}
+.scroll-table tbody tr:nth-child(even){
+	background: #f3f3f3;
+}
+ 
+
+::-webkit-scrollbar {
+	width: 6px;
+} 
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
